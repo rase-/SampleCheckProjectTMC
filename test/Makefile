@@ -8,7 +8,7 @@ test: $(SRC_FILES)
 	gcc $(CHECK_CFLAGS) -Wall -o $@ $(SRC_FILES) $(CHECK_LDFLAGS)
 
 clean:
-	rm -f test tmc_available_points.txt tmc_test_results.xml
+	rm -f test tmc_available_points.txt tmc_test_results.xml valgrind.log
 
 run: test
 	# Printing available points
