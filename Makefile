@@ -12,6 +12,7 @@ test:
 	$(MAKE) -C $(TEST_DIR)
 
 clean:
+	rm -f tmc_available_points.txt tmc_test_results.xml
 	$(MAKE) -C $(MAIN_DIR) clean
 	$(MAKE) -C $(TEST_DIR) clean
 
