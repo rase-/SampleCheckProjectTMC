@@ -21,3 +21,5 @@ run-main:
 
 run-test:
 	$(MAKE) -C $(TEST_DIR) run
+get-points:
+	$(MAKE) -C $(TEST_DIR) get-points
